@@ -1,0 +1,44 @@
+/*Toujours debuter cette page avec ces 2 balises*/
+html {
+    box-sizing: border-box;
+}
+
+*, * ::before, *::after {
+    box-sizing: inherit;
+}
+
+header {
+    background-color: #aaa;
+    color: #a00;
+}
+
+#mon-paragraphe {
+    background-color: #a00;
+}
+
+.important {
+    background-color: #e8f716;
+}
+
+.couleur {
+    color: #dc6402;
+}
+
+/* Secteur multiple*/
+main, footer{
+    background-color: #ddd;
+}
+
+/* Secteur imbrication*/
+header ul {
+    background-color: rgba(66, 160, 255, 0.467);
+}
+
+#section2 p {
+    background-color: #5c5c;
+}
+
+/* Secteur de combinaison*/
+a.active {
+    color: #dc6402;
+}
